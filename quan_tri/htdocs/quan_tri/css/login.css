@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#form-login{
+	width:400px;
+	height:auto;
+	margin:60px auto;
+	border:1px solid #CCC;
+	border-top:3px solid rgb(243, 211, 29);
+	background:#FFF;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+#form-login ul{
+	overflow:hidden;
+	width:380px;
+	height:auto;
+	padding:20px 10px;
+}
+
+#form-login ul li{
+	list-style:none;
+	width:380px;
+	height:auto;
+	margin-bottom:10px;
+}
+
+#form-login ul li label{
+	float:left;
+	width:20%;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000;
+	text-transform:capitalize;
+}
+	
+#form-login ul li{
+	float:left;
+}	
+
+#form-login ul li input[type="text"], input[type="password"]{
+	width:200px;
+	height:15px;
+	border:1px solid #CCC;
+}

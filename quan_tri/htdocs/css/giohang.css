@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+/*----------- Card --------------*/
+#card{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.card-top li{
+    text-align: center;
+}
+.card-top li:first-child a{
+    font-size: 15px;
+    text-decoration: none;
+    color: red;
+}
+.card-top li:last-child{
+    font-size: 20px;
+}
+.card-down{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.card-down p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.home{
+    border: 1px solid gainsboro;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.card-down a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 40px 20px;
+    color: black;
+}
+.home:hover{
+    background: gainsboro;
+}

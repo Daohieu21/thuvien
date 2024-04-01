@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+/*----------- Products --------------*/
+.products{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#chevron{
+    font-size: 10px;
+}
+.wrapper .product-home{
+    background: rgb(255, 223, 135);
+    padding: 5px 0;
+}
+.product-top-content{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.product-home a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding: 0px 5px;
+}
+.product-home a:hover{
+    color: red;
+}
+.product-content{
+    display: flex;
+}
+.content-left{
+    width: 55%;
+}
+.product-big-img{
+    border: 2px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.product-big-img img{
+    width: 100%;
+}
+.product-small-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.product-small-img li{
+    flex-basis: 25%;
+}
+.product-small-img img{
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+.content-right{
+    width: 45%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.product-price p{
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+}
+.so-luong{
+    display: flex;
+    margin-bottom: 20px;
+}
+.so-luong input{
+    width: 40px;
+    height: 25px;
+    margin-left: 10px;
+}
+.other p{
+    color: red;
+}
+.product-buttom button{
+    border: none;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+.wrapper-content{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-tab{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #ddd;
+    margin-top: 50px;
+}
+.nav-tab li{
+    margin-right: 10px;
+}
+.nav-tab li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    padding: 6px 10px;
+    position: relative;
+}
+.nav-tab li a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background: transparent;
+}
+.nav-tab li.active a::after, .nav-tab li:hover a::after{
+    background: #e74c3c;
+}
+.tab-content-item{
+    padding-top: 15px;
+}
+
+/*-----------sản phẩm liên quan----------------*/
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.headline{
+    margin: 40px 0px;
+}
+.headline p{
+    color: #111;
+    padding: 5px 15px;
+    border-bottom: 4px solid red;
+    display: inline-block;
+    font-weight: 600;
+}
+#wrapper .products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+#wrapper .products li{
+    flex-basis: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+#wrapper .products li img{
+    max-width: 100%;
+    height: auto;
+}
+.product-items .product-top{
+    position: relative;
+    overflow: hidden;
+}
+.product-thumb{
+    display: block;
+}
+.product-items .product-top .buy-now{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #446084;
+    opacity: 0.85  ;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -55px;
+    transition: 0.25s ease-in-out;
+    width: 100%;
+}
+#wrapper .products li:hover .buy-now{
+    bottom: 0px;
+    color: white;
+    }
+#wrapper .products li:hover{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.product-info{
+    padding: 20px 0px;
+    text-align: center;
+}
+.product-info a{
+    text-decoration: none;
+}
+.product-name {
+    color: #334862;
+    padding: 3px 0px;
+}
+.product-info .product-price{
+    color: rgb(255, 0, 0);
+    padding: 2px 0px;
+    font-weight: 600;
+}
+.star{
+    color:rgb(255, 217, 0);
+}
+
+@media(max-width:780px){
+    .product-content{
+        display: inline-block;
+    }
+    .content-left{
+        width: 100%;
+    }
+    .content-right{
+        width: 100%;
+    }
+    .product-home{
+        margin-top: 23px;
+        padding: 0;
+    }
+    .product-home a{
+        font-size: 9px;
+    }
+    .product-home i{
+        font-size: 9px;
+    }
+    #chevron {
+        font-size: 7px;
+    }
+}

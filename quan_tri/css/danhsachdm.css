@@ -1,0 +1,16 @@
+#wp-content .content .new_dm li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background: rgb(17, 154, 233);
+    border-radius: 10px;
+}
+#wp-content .content .new_dm li a{
+    color: white;
+    font-weight: 400;
+}
+#wp-content .content .table_dm{
+    padding: 5px 20px;
+}

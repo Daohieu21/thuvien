@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+/*----------- Products --------------*/
+.products{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#chevron{
+    font-size: 10px;
+}
+.wrapper .product-home{
+    background: rgb(255, 223, 135);
+    padding: 5px 0;
+}
+.product-top-content{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.product-home a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding: 0px 5px;
+}
+.product-home a:hover{
+    color: red;
+}
+.product-content{
+    display: flex;
+}
+.content-left{
+    width: 55%;
+}
+.product-big-img{
+    border: 2px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.product-big-img img{
+    width: 100%;
+}
+.product-small-img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.product-small-img li{
+    flex-basis: 25%;
+}
+.product-small-img img{
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+.content-right{
+    width: 45%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.product-price p{
+    color: green;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.sotrang h6{
+	font-size: 15px;
+    padding-top: 15px;
+}
+
+.nxb h6{
+	font-size: 15px;
+    padding-top: 15px;
+}
+
+.tinhtrang h6{
+	font-size: 15px;
+    padding-top: 15px;
+}
+.other p{
+    color: red;
+}
+.product-buttom{
+    margin-top: 15px;
+}
+.product-buttom button{
+    border: none;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #446084;
+    cursor: pointer;  
+}
+
+.wrapper-content{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-tab{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid #ddd;
+    margin-top: 50px;
+}
+.nav-tab li{
+    margin-right: 10px;
+}
+.nav-tab li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    padding: 6px 10px;
+    position: relative;
+}
+.nav-tab li a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background: transparent;
+}
+.nav-tab li.active a::after, .nav-tab li:hover a::after{
+    background: #e74c3c;
+}
+.tab-content-item{
+    padding-top: 15px;
+}

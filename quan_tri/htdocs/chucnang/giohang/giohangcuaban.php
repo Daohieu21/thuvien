@@ -1,0 +1,1 @@
+<li><a href="index.php?page_layout=giohang"><i class="fa fa-shopping-cart"></i></a></li>

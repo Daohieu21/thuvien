@@ -1,0 +1,19 @@
+#wp-content .content .new_sp li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background: rgb(17, 154, 233);
+    border-radius: 10px;
+}
+#wp-content .content .new_sp li a{
+    color: white;
+    font-weight: 400;
+}
+#wp-content .content .table_sp{
+    padding: 5px 20px;
+}
+.pagination li{
+    background: brown;
+}

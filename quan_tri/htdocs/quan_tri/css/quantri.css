@@ -1,0 +1,103 @@
+*{
+    margin: 0 auto;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(243, 211, 29);
+    padding: 10px;
+    position: sticky;
+    top: 0;left: 0;right: 0;
+    z-index: 5;
+}
+#header li{
+    margin: 0;
+    list-style: none;
+}
+#header li a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#wp-content{
+    display: flex;
+    justify-content: space-between;
+    min-height: 850px;
+}
+#wp-content .sidebar{
+    position: fixed;
+    left: 0; top:45px; left: 0px;
+    width: 15%;
+    list-style: none;
+    padding-top: 30px;
+}
+#wp-content .sidebar li{
+    padding: 5px 20px;
+}
+#wp-content .sidebar li:last-child{
+    margin-top: 20px;
+    border-top: 1px solid gainsboro;
+}
+#wp-content .sidebar li a{
+    text-decoration: none;
+    font-weight: 500;
+}
+#wp-content .sidebar li:hover{
+    background: rgb(17, 154, 233);
+    color: white;
+}
+#wp-content .sidebar li:hover a{
+    color: white;
+}
+h3{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#wp-content .content{
+    width: 85%;
+    padding-top: 15px;
+    background: rgb(241, 241, 241);
+    margin-right: 0;
+}
+#wp-content .content .tong_quan{
+    display: flex;
+    justify-content: space-around;
+}
+#wp-content .content .tong_quan li{
+    list-style: none;
+    margin: 0;
+    padding: 20px 150px;
+    border-radius: 10px;
+}
+#wp-content .content .tong_quan li:first-child{
+    background: rgb(17, 154, 233);
+}
+#wp-content .content .tong_quan li:nth-child(2){
+    background: orange;
+}
+#wp-content .content .tong_quan li:last-child{
+    background: rgb(22, 248, 135);
+}
+#wp-content .content .tong_quan li a{
+    color: black;
+    font-weight: 500;
+}
+#wp-content .content .main-content p{
+    padding: 0 10px;
+}
+#wp-content .content .phan_trang{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#footer{
+    background: gray;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
